@@ -71,3 +71,61 @@ body {
 	font: 18px/30px var(--font-title);
 	padding: 0 21%;
 }
+
+.content {
+	display: flex;
+	padding-bottom: 100px;
+}
+
+.techno {
+	width: 25%;
+	background: #f7f7f7;
+	border: 1px solid #ececec;
+	padding: 55px 2.5% 75px;
+	text-align: center;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+	position: relative;
+}
+
+.techno:hover {
+	background: rgba(14, 200, 203, .9);
+	border-color: var(--green);
+	color: #fff;
+	transform: scale(1.1);
+	z-index: 99;
+	box-shadow: 0 0 25px 0 rgba(11, 32, 32, 0.5);
+}
+
+.techno p {
+	font: 14px/22px var(--font-title);
+}
+
+.techno h2.techno-title {
+	font-size: 21px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #1b1b1b;
+	margin-bottom: 25px;
+	transition: all .3s;
+}
+
+.techno:hover h2.techno-title {
+	color: #fff;
+}
+
+.picture {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 45px;
+}
+
+.picture path {
+	transition: all .3s;
+}
+
+.techno:hover .picture path {
+	fill: #fff;
+}
